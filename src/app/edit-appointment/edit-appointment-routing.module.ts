@@ -5,7 +5,7 @@ import { EditAppointmentPage } from './edit-appointment.page';
 
 const routes: Routes = [
   {
-    path: '',
+    path: ':id',
     component: EditAppointmentPage
   }
 ];
